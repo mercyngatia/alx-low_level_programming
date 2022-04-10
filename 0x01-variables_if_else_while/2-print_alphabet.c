@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * Main - main entry
- * Desc: Get random number and check its last digit, compare with 5
+ * Description: Print the alphabet in lowercase then a new line
  * Return: 0
  */
 int main(void)
