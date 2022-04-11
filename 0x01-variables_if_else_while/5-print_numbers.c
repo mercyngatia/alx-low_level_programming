@@ -8,10 +8,10 @@
 int main(void)
 
 {
-int single_digit:
-for (single_digit = 0; single-digit < 10; single_digit++)
+int x:
+for (x = 0; x < 10; x++)
 {
-printf("%single_digit", single_digit);
+printf("%x", x);
 }
 
 print("\n");
