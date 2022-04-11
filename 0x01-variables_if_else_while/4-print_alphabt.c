@@ -14,7 +14,7 @@ for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 if (lowerCase == 'e')
 continue;
 
-else if (lowerCase =='q')
+else if (lowerCase == 'q')
 continue;
 
 putchar(lowerCase);
