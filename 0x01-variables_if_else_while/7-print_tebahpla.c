@@ -3,7 +3,7 @@
  * main - Main entry
  * Description: prints lowercase alphabet in reverse, then new line
  */
-int main (void)
+int main(void)
 
 {
 char alphabet_reverse;
