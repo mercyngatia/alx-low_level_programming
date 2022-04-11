@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*8
+/**
  * main - Main entry
- *
+ * escription: prints alphabet in lowercase,
+ * then in uppercase, then new line
  * Return: 0
  */
 int main(void)
@@ -10,17 +11,17 @@ int main(void)
 char lowerCase;
 char upperCase;
 
-for (upperCase = 'A'; upperCase <= 'Z'; upperCase++)
-{
-putchar(upperCase);
-}
-
 for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 {
 putchar(lowerCase);
 }
 
-putchar('\n');
+for (upperCase = 'A'; upperCase <= 'Z'; upperCase++)
+{
+putchar(upperCase);
+}
+
+putchar ('\n');
 
 return (0);
 }
