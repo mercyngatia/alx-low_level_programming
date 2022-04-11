@@ -8,7 +8,7 @@ int main (void)
 {
 char alphabet_reverse;
 
-for (alphabet_reverse = 122; alphabet_reverse >= 97; alphabet--)
+for (alphabet_reverse = 122; alphabet_reverse >= 97; alphabet_reverse--)
 {
 putchar(alphabet_reverse);
 }
