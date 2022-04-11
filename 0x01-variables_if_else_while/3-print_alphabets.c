@@ -17,7 +17,7 @@ putchar(upperCase);
 
 for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 {
-pitchar(loewerCase);
+putchar(lowerCase);
 }
 
 putchar('\n');
