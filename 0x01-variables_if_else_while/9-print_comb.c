@@ -4,7 +4,7 @@
  * Description:  prints possible combinations of single-digit numbers
  * Return: 0
  */
-init main(void)
+int main(void)
 
 {
 int single_number;
@@ -13,9 +13,9 @@ for (single_number = 48; single_number <= 57; single_number++)
 {
 putchar(single_number);
 
-if (number == 57)
+if (single_number == 57)
 {
-break:
+break;
 }
 
 putchar(',');
