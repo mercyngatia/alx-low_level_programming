@@ -5,7 +5,7 @@
  * @c: character to check
  * Return: 0 or 1
  */
-int int _isalph(int c)
+int _isalph(int c)
 {
 
 if ((c > 'a' && c < 'z') || (c > 'A' && c< 'z'))
