@@ -17,7 +17,7 @@ for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 _putchar(lowerCase);
 }
 
-count ++;
+count++;
 _putchar('\n');
 }
 
