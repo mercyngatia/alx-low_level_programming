@@ -10,7 +10,7 @@ int lowerCase;
 int count;
 
 count = 0;
-while (count < 10);
+while (count < 10)
 {
 for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 {
