@@ -16,18 +16,18 @@ while (i <= x)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
-print("FizzBuzz");
+print("FizzBuzz ");
 }
 
 else if (i % 3 == 0)
 {
-printf("Fizz");
+printf("Fizz ");
 }
 
-else if (i % 5 ==0)
+else if (i % 5 == 0)
 {
 if (i < x)
-printf("Buzz");
+printf("Buzz ");
 
 else
 {
