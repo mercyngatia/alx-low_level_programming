@@ -1,6 +1,6 @@
-#include 'main.h"
+#include "main.h"
 /**
- * print_diagonal - print diagonal line
+ * print_diagonal - prints diagonal line
  * @n: number of \\ lines to be printed
  * Return: void
  */
