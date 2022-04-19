@@ -16,7 +16,7 @@ x = 0;
 result = 0;
 while (x < 10)
 {
-while(result <= 14)
+while (result <= 14)
 {
 if (result < 10)
 {
