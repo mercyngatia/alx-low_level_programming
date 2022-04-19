@@ -8,11 +8,11 @@
 int main(void)
 {
 
-int x = 100;
+int p = 100;
 int i;
 
 i = 1;
-while (i <= x)
+while (i <= p)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
@@ -26,11 +26,10 @@ printf("Fizz ");
 
 else if (i % 5 == 0)
 {
-if (i < x)
+if (i < p)
 printf("Buzz ");
 
 else
-{
 print("Buzz");
 }
 
@@ -40,6 +39,7 @@ printf("%i ", i);
 }
 
 i++;
+
 
 }
 printf("\n");
