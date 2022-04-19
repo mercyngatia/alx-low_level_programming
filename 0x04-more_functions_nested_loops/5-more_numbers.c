@@ -34,7 +34,7 @@ _putchar (secondNumber + '0');
 
 result++;
 }
-i++;
+x++;
 result = 0;
 _putchar ('\n');
 }
