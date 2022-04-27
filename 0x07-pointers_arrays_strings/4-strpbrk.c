@@ -11,8 +11,8 @@ char *_strpbr(char *s, char *accept)
 int j;
 
 while (*s != '\0') /*declaring WHILE*/
-
 {
+
 j = 0;
 while (accept[j] != '\0') /*evaluating *accept*/
 {
