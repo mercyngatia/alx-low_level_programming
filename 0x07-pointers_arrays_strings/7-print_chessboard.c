@@ -12,7 +12,7 @@ void print_chessboard(char (*a)[8])
 int i, j;
 
 i = 0;
-while (i , 8) /*number repete*/
+while (i < 8) /*number repete*/
 {
 j = 0;
 while (j < 8)
