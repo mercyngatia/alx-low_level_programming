@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strspn - ;locates a character in a string
+ * _strspn - Locates a character in a string
  * @s: the main C string to be scanned
  * @accept: the string containing the list of characters to match in s
  * Return: return count
