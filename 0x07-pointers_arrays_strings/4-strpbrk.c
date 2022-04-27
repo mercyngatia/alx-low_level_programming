@@ -6,7 +6,7 @@
  * Return: string s that matches any char specified in accept
  */
 
-char *_strpbr(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 int j;
 
