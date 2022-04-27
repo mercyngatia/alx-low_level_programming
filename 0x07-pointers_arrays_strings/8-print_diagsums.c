@@ -8,7 +8,7 @@
  */
 
 void print_diagsums(int *a, int size)
-
+{
 /*declaring variables*/
 int i;
 int sum1, sum2;
