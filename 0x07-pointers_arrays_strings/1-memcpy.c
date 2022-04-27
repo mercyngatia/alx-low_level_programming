@@ -15,10 +15,11 @@ unsigned int i;
 i = 0;
 while (i < n) /*declaring WHILE*/
 {
-*(dest + i) = *(src +); /*add 1 position dest and src*/
+*(dest + i) = *(src + i); /*add 1 position dest and src*/
 i++;
 
 } /*END WHILE*/
+
 
 return (dest);
 }
