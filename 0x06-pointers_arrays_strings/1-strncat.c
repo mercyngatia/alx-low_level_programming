@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strncat - concatenates n bytes o two things
  * @dest: pointer to a character that will be changed
