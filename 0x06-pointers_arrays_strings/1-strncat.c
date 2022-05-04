@@ -3,6 +3,7 @@
  * _strncat - concatenates n bytes o two things
  * @dest: pointer to a character that will be changed
  * @src: pointer source
+ * @n: value
  * @Return: dest
  */
 
@@ -17,7 +18,7 @@ i++;
 }
 
 j = 0;
-while (src[j] != '\0')
+while (j < n && src[j] != '\0')
 {
 dest[i] = src[j];
 j++;
