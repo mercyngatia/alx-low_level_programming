@@ -5,14 +5,14 @@
  * Return: void - correct
  */
 
-void puts(char *str)
+void puts2(char *str)
 {
 int x;
 
-for (x = 0; str[a] != '\0'; a++)
+for (x = 0; str[x] != '\0'; x++)
 {
-if (a % 2 == 0)
-_putchar(str[a]);
+if (x % 2 == 0)
+_putchar(str[x]);
 }
 
 _putchar('\n');
