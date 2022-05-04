@@ -5,7 +5,7 @@
  * @src: char type string
  * Description : copy the string pointed to by pointer - src - to
  * the bufer pointed to by - dest
- * Return: pointer to - dest
+ * Return: pointer to - dest.
  */
 
 char *_strcpy(char *dest, char *src)
