@@ -6,15 +6,16 @@
  * @n: value
  * @Return: dest
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
-int i, j;
+	int x, y;
 
-for (i = 0; dest[i] != '\0'; i++)
-;
-for (j = 0; src[j] != '\0' && n > 0; j++, n--, i++)
-{
-dest[i] = src[j];
-}
-return (dest);
+	for (x = 0; dest[x] != '\0'; x++)
+		;
+	for (y = 0; src[y] != '\0' && n > 0; y++, n--, x++)
+	{
+		dest[x] = src[y];
+	}
+	return (dest);
 }
