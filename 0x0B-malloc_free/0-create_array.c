@@ -16,7 +16,7 @@ if (size == 0)
 return (NULL);
 
 a = malloc(size * sizeof(*a));
-i (a == NULL)
+if (a == NULL)
 return (NULL);
 
 for (i = 0; i < size; i++)
