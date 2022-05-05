@@ -3,7 +3,7 @@
 /**
  * create_array - create an array of chars
  * @size: size of array
- * @c: character
+ * @c: character.
  * Return: char pointer.
  */
 
@@ -22,5 +22,5 @@ return (NULL);
 for (i = 0; i < size; i++)
 a[i] = c;
 
-return (a); 
+return (a);
 }
