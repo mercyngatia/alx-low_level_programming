@@ -4,7 +4,7 @@
  * create_array - create an array of chars
  * @size: size of array
  * @c: character
- * Return: char pointer 
+ * Return: char pointer
  */
 
 char *create_array(unsigned int size, char c)
@@ -22,4 +22,5 @@ return (NULL);
 for (i = 0; i < size; i++)
 a[i] = c;
 
-return (a);}
+return (a); 
+}
