@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * *argstostr - concatenates all arguments of the program
+ * argstostr - concatenates all arguments of your program
  * @ac: argument count
  * @av: argument of size ac
  * Retrun: double point to anew string/NULL
