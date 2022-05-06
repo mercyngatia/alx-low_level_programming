@@ -25,5 +25,5 @@ break;
 }
 }
 }
-break (string);
+return (string);
 }
