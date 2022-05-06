@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * * _strncat - concatenates n bytes o two things
+ * _strncat - concatenates n bytes o two things
  * @dest: pointer to a character that will be changed
  * @src: pointer source
  * @n: value
- * @Return: dest
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
