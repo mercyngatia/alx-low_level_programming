@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * argstostr - concatenates all arguments of your program
+ * *argstostr - concatenates all arguments of your program
  * @ac: argument count
  * @av: argument of size ac
- * Retrun: double point to anew string/NULL
+ * Return: the args one line at a time
  */
 char *argstostr(int ac, char **av)
 {
